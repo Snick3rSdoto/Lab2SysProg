@@ -1,0 +1,22 @@
+
+ Performance counter stats for './program_O0':
+
+          1,560.58 msec task-clock                       #    0.999 CPUs utilized             
+               108      context-switches                 #   69.205 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               643      page-faults                      #  412.027 /sec                      
+    18,148,493,791      instructions                     #    2.92  insn per cycle              (62.47%)
+     6,215,885,768      cycles                           #    3.983 GHz                         (62.49%)
+     1,973,261,036      branches                         #    1.264 G/sec                       (62.53%)
+           110,603      branch-misses                    #    0.01% of all branches             (62.55%)
+     7,485,442,874      L1-dcache-loads                  #    4.797 G/sec                       (62.50%)
+        49,817,986      L1-dcache-load-misses            #    0.67% of all L1-dcache accesses   (50.01%)
+         1,133,488      LLC-loads                        #  726.326 K/sec                       (49.95%)
+            26,815      LLC-load-misses                  #    2.37% of all LL-cache accesses    (49.97%)
+
+       1.562255907 seconds time elapsed
+
+       1.544020000 seconds user
+       0.017022000 seconds sys
+
+
